@@ -1,0 +1,123 @@
+@media screen and(min-width:600px) {
+  .main {
+    padding: 5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0.5rem;
+  }
+}
+.main {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 60px;
+  margin: 0.5rem;
+  flex-direction: column;
+  width: 300px;
+  box-shadow: 11px 12px 13px 12px rgb(207, 207, 207);
+}
+
+.email {
+  text-align: center;
+  justify-content: center;
+
+  /* padding: 0.25rem 0; */
+  padding: 1rem;
+  color: rgb(91, 91, 229);
+  background-color: transparent;
+  border: 0.5px solid rgb(44, 44, 237);
+  border-radius: 30px;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.email-input {
+  border: transparent;
+  font-size: 16px;
+  outline: none;
+}
+.password-input {
+  border: transparent;
+  font-size: 16px;
+  outline: none;
+}
+.password {
+  margin: 20px;
+  padding: 1rem;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  border: 0.5px solid rgb(44, 44, 237);
+  border-radius: 30px;
+  color: rgb(81, 81, 225);
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+}
+.password a:hover {
+  /* background-color: #1a83ff; */
+  border: transparent;
+}
+.button {
+  background-color: transparent;
+  border: 0px;
+
+  color: rgb(86, 86, 240);
+  text-decoration: underline;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+.link-btn {
+  border: 1px solid #b76af299;
+  background-color: #b664f5;
+  width: 200px;
+  margin-left: 50px;
+
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 50px;
+  color: white;
+}
+.end-btn {
+  background-color: transparent;
+  border: 0px;
+
+  color: rgb(97, 97, 235);
+  text-decoration: underline;
+  margin-top: 5px;
+}
+/* .nav-text {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+}
+.nav-text a {
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.nav-text a:hover {
+  background-color: #1a83ff;
+} */
+/* .checkbox {
+  background-color: transparent;
+  border: 0px;
+
+  color: blue;
+  text-decoration: underline;
+  margin-top: 5px;
+}  */
